@@ -1,0 +1,156 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+$primaryFont: "Poppins", sans-serif;
+$secFont: "Playfair Display", serif;
+$primaryColor: #2493e9;
+$bkColor: #000000;
+$wtcolor: #ffffff;
+$marginLg: 30px 0;
+$marginSm: 0 0 15px;
+$paddingLg: 45px 0;
+$paddingSm: 15px 0;
+$boxShadow: 0 0 10px #ddd;
+
+body {
+  font: {
+    size: 16px;
+    family: $primaryFont;
+    weight: 300;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: {
+    family: $secFont;
+    weight: 700;
+  }
+  margin: $marginSm;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 75px;
+  strong {
+    color: $primaryColor;
+  }
+}
+
+h3 {
+  font-size: 35px;
+  strong {
+    color: $primaryColor;
+  }
+}
+
+h4 {
+  text-transform: uppercase;
+  font: {
+    family: $primaryFont;
+    size: 18px;
+  }
+  strong {
+    color: $primaryColor;
+  }
+}
+
+h5 {
+  text-transform: uppercase;
+  font: {
+    family: $primaryFont;
+    size: 22px;
+  }
+  strong {
+    color: $primaryColor;
+  }
+}
+
+p {
+  font: {
+    family: $primaryFont;
+    weight: 300;
+  }
+  margin: $marginSm;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+input,
+select {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.content {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.smContent {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  text-align: center;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+
+.btn,
+input[type="submit"] {
+  background-color: $primaryColor;
+  color: $wtcolor;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 0;
+  transition: 0.5s;
+  cursor: pointer;
+  font: {
+    size: 16px;
+    weight: 600;
+  }
+  text: {
+    decoration: none;
+    transform: uppercase;
+  }
+  &:hover {
+    background-color: $bkColor;
+  }
+}

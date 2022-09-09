@@ -1,0 +1,54 @@
+#header_area {
+  width: 100%;
+  .top_header {
+    background: $primaryColor;
+    color: $wtcolor;
+    padding: $paddingSm;
+    .info {
+      flex-basis: 33%;
+      p {
+        margin: 6px 0 0;
+        font: {
+          size: 15px;
+          weight: 500;
+        }
+      }
+      i {
+        margin-right: 5px;
+      }
+    }
+    .ul {
+      text-align: right;
+      li {
+        margin-left: 8px;
+      }
+      a {
+        background-color: $wtcolor;
+        color: $bkColor;
+        width: 35px;
+        height: 35px;
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        &:hover {
+          background-color: $bkColor;
+          color: $wtcolor;
+        }
+      }
+      i {
+        margin: 0;
+      }
+    }
+  }
+
+  .main_header {
+    padding: $paddingSm;
+  }
+
+  .logo_area {
+    flex-basis: 30%;
+    img {
+      display: block;
+    }
+  }
+}

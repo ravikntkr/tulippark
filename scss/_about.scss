@@ -1,0 +1,14 @@
+#about_area {
+  padding: $paddingLg;
+  img {
+    margin-right: 25px;
+  }
+  .inner_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h5 {
+    margin: 0;
+  }
+}

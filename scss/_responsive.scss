@@ -1,0 +1,141 @@
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  h2 {
+    font-size: 35px;
+    br {
+      display: none;
+    }
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  #header_area .top_header .info {
+    display: none;
+    &:last-child {
+      display: block;
+      flex-basis: 100%;
+      ul {
+        text-align: center;
+      }
+    }
+  }
+
+  #header_area .logo_area {
+    flex-basis: 100%;
+    text-align: center;
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  #main_menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: $primaryColor;
+    padding: 0;
+    ul {
+      text-align: center;
+      li {
+        margin: 0 0.5%;
+        &:last-child {
+          display: none;
+        }
+      }
+      a {
+        color: $wtcolor;
+        padding: 10px;
+        i {
+          display: block;
+          margin-bottom: 5px;
+        }
+        &:hover {
+          background: $bkColor;
+        }
+      }
+    }
+  }
+
+  #hero_area {
+    img {
+      height: 200px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      display: none;
+    }
+    a {
+      margin: 0;
+    }
+  }
+
+  #checkout_area {
+    margin-top: 20px;
+    .inner_checkout {
+      flex-direction: column;
+    }
+    .child_checkout {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      input[type="submit"] {
+        margin-top: 0;
+      }
+    }
+  }
+
+  #about_area {
+    .inner {
+      flex-direction: column;
+    }
+    img {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  #why_area .inner,
+  #living_room .inner,
+  #footer_area .inner {
+    flex-direction: column;
+    .child_why #living_room,
+    .living_child {
+      margin: 0 auto 15px;
+      width: 96%;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #contact_area iframe {
+    height: 250px;
+  }
+  #contact_area .inner_contact {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #footer_area ul {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #footer_area {
+    padding: 15px 0 80px;
+  }
+
+  #footer_area .copyright_area p {
+    text-align: center;
+  }
+
+  .content {
+    width: 96%;
+  }
+}

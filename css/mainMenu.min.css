@@ -1,0 +1,1 @@
+#main_menu{flex-basis:68%}#main_menu ul{text-align:right}#main_menu li{margin-left:15px;position:relative}#main_menu li::after{content:"";position:absolute;width:0;height:2px}

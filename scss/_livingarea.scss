@@ -1,0 +1,22 @@
+#living_room {
+  padding: $paddingLg;
+  h5 {
+    margin: 0;
+  }
+  .inner {
+    margin-top: 25px;
+  }
+  .living_child {
+    background: $wtcolor;
+    box-shadow: $boxShadow;
+    border-radius: 10px;
+    flex-basis: 32%;
+    text-align: center;
+    img {
+      border-radius: 10px 10px 0 0;
+    }
+    .inner_living {
+      padding: 25px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+#footer_area {
+  padding: $paddingSm;
+  ul {
+    text-align: left;
+  }
+  li {
+    margin-right: 10px;
+  }
+  a {
+    color: $wtcolor;
+    background: $primaryColor;
+    width: 35px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    padding-top: 7px;
+    &:hover {
+      background: $bkColor;
+    }
+  }
+  .copyright_area {
+    p {
+      margin: 0px;
+      padding-top: 5px;
+      font-weight: 600;
+    }
+  }
+}
